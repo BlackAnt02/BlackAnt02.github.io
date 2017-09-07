@@ -15,9 +15,47 @@
 			float: left;
 			width: 100%;
 			margin-top: 80px;
+		}
 
+		.font{
+			font-size: 300%;
+			text-align: left;
+		}
+		.gly{
+			color: #99CCFF;
+			position: center;
+			font-size: 120%;
+		}
+		.typeset{
+			padding-top:5px;
+			height:70px;
+		}
+		.headset{
+			color: #99CCFF;
+			position: center;			
+			font-size: 200%;
+		}
+		// Class
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+		.cloud{
+			background-image: url(img/CloudVideo.jpg);
+			background-size: 100%;
+			background-repeat: no-repeat;
 		}
 	</style>
+
+	    <!-- Custom styles for this template -->
+    <link href="/assets/css/docs.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+    <!-- fancybox plugin css -->
+    <link rel="stylesheet" href="/assets/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/assets/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/assets/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 </head>
 <body>
 	<nav class="navbar navbar-inverse hd">
@@ -30,7 +68,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="http://www.blackant.org/index-en.html">BlackAnt</a>
+	      <a class="navbar-brand" href="http://www.blackant.org/index.html">黑蚂蚁</a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -38,8 +76,8 @@
 	      <ul class="nav navbar-nav">
 	        <li class="active"><a href="http://www.blackant.org/index-en.html">Home</a></li>
 	        <li><a href="http://blog.blackant.org">Blog</a></li>
-	        <li><a href="new/index-en.html">New</a></li>
-	        <li><a href="about/index-en.html">About</a></li>
+	        <li><a href="history-en.html">New</a></li>
+	        <li><a href="aboutus-en.html">About</a></li>
 	        <li><a href="http://pan.baidu.com/s/1jIPcJHG">Download</a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
@@ -55,24 +93,33 @@
 	  <ol class="carousel-indicators">
 	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 	  </ol>
 
 	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner" role="listbox">
 	    <div class="item active">
+	      <img src="img/banner.jpg" alt="..." class="center-block">
+	      <div class="carousel-caption">
+	 		<h3 style="color:white"></h3>
+	       	<p style="color:white">Join us now！</p>
+	       	<p><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
+	      </div>
+	    </div>
+	    <div class="item">
 	      <img src="img/1.png" alt="..." class="center-block">
 	      <div class="carousel-caption">
-	       	<h3>X-Space机器人百科</h3>
-	       	<p>四轴飞行器是一种微型空中智能机器人，技术覆盖电子/机械/通信/计算机/自动化等多个学科领域。</p>
-	       	<p><a href="#" class="btn btn-primary" role="button">了解详情</a></p>
+	       	<h3>BlackAnt Roboticspeida</h3>
+	       	<p>Four axis aerocraft is a kind of micro air intelligent robot, which covers many subjects, such as electronic / mechanical / communication / computer / automation.</p>
+	       	<p><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
 	      </div>
 	    </div>
 	    <div class="item">
 	      <img src="img/3.jpg" alt="..." class="center-block">
 	      <div class="carousel-caption">
-	 		<h3>X-Space陆地机器人</h3>
-	       	<p>繁星若尘，带来娱乐性/开发性最强的开源空中机器人——微型四轴飞行器。</p>
-	       	<p><a href="#" class="btn btn-primary" role="button">了解详情</a></p>
+	 		<h3>BlackAnt Ground Robotics</h3>
+	       	<p>Bring entertainment / development the most open source Micro Aerial Robot four axis aircraft.</p>
+	       	<p><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
 	      </div>
 	    </div>
 	  </div>
@@ -88,52 +135,101 @@
 	  </a>
 	</div>
 
-	<div class="page-header text-center" style="margin:100px;">
-	  <h1>X-Space 我们的机器人强国梦</h1>
-	  <h1><small>我们是一群极具创新力和活力的群体，我们都有一个共同的梦想。那就是用机器人让中国更强大。</small></h1>
-
+	<div class="page-header text-center" style="margin:70px;">
+	  <h1>BlackAnt Our dream of Strenthening China</h1>
+	  <h1><small>We are a group of creative and dynamic people, and we all share a common dream. That is to make China stronger with robots.</small></h1>
 	</div>
-	
-	<div class="cantainer" style="margin-top:20px;">
-		<div class="col-sm-12 col-xs-12">
-			<div class="row">
-			  <div class="col-sm-4 col-xs-12">
-			    <div class="thumbnail">
-			      <img src="img/17.jpg" alt="...">
-			      <div class="caption">
-			        <h3>陆地机器人</h3>
-			        <p>采用ARM-v8芯片架构，搭载Linux系统，通过开源的一体化平台为您提供机器人行业的解决方案</p>
-			        <p><a href="#" class="btn btn-primary" role="button">了解详情</a> <a href="#" class="btn btn-default" role="button">开源资料</a></p>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col-sm-4 col-xs-12">
-			    <div class="thumbnail">
-			      <img src="img/16.jpg" alt="...">
-			      <div class="caption">
-			        <h3>水下机器人</h3>
-			        <p>采用ARM-v8芯片架构，搭载Linux系统，通过开源的一体化平台为您提供机器人行业的解决方案</p>
-			        <p><a href="#" class="btn btn-primary" role="button">了解详情</a> <a href="#" class="btn btn-default" role="button">开源资料</a></p>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col-sm-4 col-xs-12">
-			    <div class="thumbnail">
-			      <img src="img/15.jpg" alt="...">
-			      <div class="caption">
-			        <h3>空中机器人</h3>
-			        <p>采用ARM-v8芯片架构，搭载Linux系统，通过开源的一体化平台为您提供机器人行业的解决方案</p>
-			        <p><a href="#" class="btn btn-primary" role="button">了解详情</a> <a href="#" class="btn btn-default" role="button">开源资料</a></p>
-			      </div>
-			    </div>
-			  </div>
-			</div>
+
+  <div class="container" >
+     <div class="row">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-12">
+        <div>
+          <img src="img/22.png" alt=" " class="img-rounded">
+        </div>
+      </div>
+      <div class="col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 text-left features-right" >
+      	<div class="page-header text-center">
+	    <h1>Mobile Robotics</h1>
+	</div>
+	    <h4 style="text-align:center;color:grey">Embodied with Visual Recognition, Laser Scanning and Mobile Robot Platform, this robot would protect public security comprehensively. No matter during night or wild, this robot would take charge of protection</h4>
+	</div>   
+    </div>
+  </div>
+
+
+	<div class="row"style="margin-top:50px" >
+		<div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-12">
+			<img src="img/44.jpg" class="img-responsive center-block">
+			<h4 class="headset text-center"><span class="glyphicon glyphicon-eye-open gly" aria-hidden="true"></span> Visual Recognition<h4>
+		</div>
+		<div class="col-md-2 col-sm-2 col-xs-12">
+			<img src="img/46.jpg" class="img-responsive center-block">
+			<h4 class="headset text-center"><span class="glyphicon glyphicon-search gly" aria-hidden="true"></span> Laser Scanning<h4>
+		</div>
+		<div class="col-md-2 col-sm-2 col-xs-12">
+			<img src="img/36.jpg" class="img-responsive center-block">
+			<h4 class="headset text-center"><span class="glyphicon glyphicon-globe gly" aria-hidden="true"></span> Inertial navigation system<h4>
+		</div>
+		<div class="col-md-2 col-sm-2 col-xs-12">
+			<img src="img/30.jpg" class="img-responsive center-block">
+			<h4 class="headset text-center"><span class="glyphicon glyphicon-th-large gly" aria-hidden="true"></span> Mobile Robot Platform<h4>	
+		</div>
+		<div class="col-md-2 col-sm-2 col-xs-12">
+			<img src="img/45.jpg" class="img-responsive center-block">
+			<h4 class="headset text-center"><span class="glyphicon glyphicon-map-marker gly" aria-hidden="true"></span> SLAM<h4>
 		</div>
 	</div>
 
+	<div class="page-header" style="width:90%;margin-left:5%">
+	</div>
+
+	<div class="row">
+    <div class="col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 features-right" >
+    <div class="page-header text-center col-md-12 col-sm-12 col-xs-12" >
+      <h1>CloudVideo System</h1>
+    </div> 
+    <div class="col-md-12 col-sm-12 col-xs-12 " style="font-size:150%;text-align:center">
+360<sup>o</sup>Panoramic shooting | 
+1080p High Quality | 
+Infrared night vision | 
+AI Voice System
+    </div>   
+      </div> 
+      <div class="col-md-5  col-sm-5  col-xs-12">
+        <div>
+          <img src="img/云视频系统2.png" alt=" " class="img-responsive center-block" style="width:319px;height:319px">
+        </div>
+      </div> 
+	</div>
+
+<div class="bs-docs-featurette" id="about-us">
+  <div class="container">
+    <h2 class="bs-docs-featurette-title">BlackAnt</h2>
+    <p class="lead">Here we share some of our best performace.</p>
+    <hr class="half-rule">
+    <div class="row">
+        <div class="col-md-9 col-sm-9 col-xs-12 hidden-xs">
+<embed src='http://player.youku.com/player.php/sid/XMjUyNzQ2MTQxMg==/v.swf' allowFullScreen='true' quality='high' width='864' height='720' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash' class="center-block"></embed>
+            <hr>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+<embed src='http://player.youku.com/player.php/sid/XMjUyNzQ2MTQxMg==/v.swf' allowFullScreen='true' quality='high' width='240' height='200' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash' class="visible-xs-block center-block"></embed>
+<hr>
+<embed src='http://player.youku.com/player.php/sid/XMTUxODYzNzk2OA==/v.swf' allowFullScreen='true' quality='high' width='240' height='200' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash' class="center-block"></embed>
+            <hr>
+<embed src='http://player.youku.com/player.php/sid/XMTQwNDc3NTQ5Ng==/v.swf' allowFullScreen='true' quality='high' width='240' height='200' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash' class="center-block"></embed>
+            <hr>
+<embed src='http://player.youku.com/player.php/sid/XMTU1MTc5NDA5Mg==/v.swf' allowFullScreen='true' quality='high' width='240' height='200' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash' class="center-block"></embed>
+            <hr>            
+        </div>
+    </div>
+</div>
+</div>
+
+
 	<div class="bottom" style="background:#212121;padding:10px;color:#fff;">
-		<p class="text-center">我们的目标：让更多人低成本的参与创造机器人的乐趣</p>
-		<p class="text-center">Copyright ©2016 X-Space.com All rights reserved. 苏ICP备15005357号</p>
+		<p class="text-center">Our goal: to allow more people to participate in low-cost robots to create fun</p>
+		<p class="text-center">Copyright ©2017 X-Space.com All rights reserved. 苏ICP备15005357号</p>
 	</div>
 
 
