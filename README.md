@@ -9,6 +9,7 @@ dog_project
 http://v.youku.com/v_show/id_XMzY5ODQzNjA3Mg==.html?x&sharefrom=android&sharekey=c66188b0885f789cd84503cc0f15c9730
 
 visual odometry
+https://www.bilibili.com/video/av24356037?share_medium=android&share_source=weixin&bbid=709CC4CD-5016-4224-A5DC-89809C291BE110309infoc&ts=1536046430206
 
 
 
