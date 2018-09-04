@@ -6,14 +6,17 @@ About us
 The BlackAnt team consists of a number of open-source enthusiasts, members include signal processing, communication engineering, doctoral and master's degree in computer related professional team, proficient in driving, wired / wireless communication transmission, /WEB client development such as a set of technology industry chain. The team to the open source technology for the pilot to freely share as the foundation, to open for harmonious culture. Based on the research and development of intelligent hardware team open source Crawler / 4WD intelligent robot, wireless router, a series of technical products of intelligent mechanical arm. Don't ask who we are, we are a group of unknown to the public in the vast sea of open source enthusiasts, our team is your team to join us, enjoy! The open-source world of fun!
 
 dog_project 
+---
 http://v.youku.com/v_show/id_XMzY5ODQzNjA3Mg==.html?x&sharefrom=android&sharekey=c66188b0885f789cd84503cc0f15c9730
 
 visual odometry
+---
 https://www.bilibili.com/video/av24356037?share_medium=android&share_source=weixin&bbid=709CC4CD-5016-4224-A5DC-89809C291BE110309infoc&ts=1536046430206
 
 
 
 ROS机器人demo
+---
 https://v.youku.com/v_show/id_XMzQ1ODM0Nzg4OA==.html?spm=a2h3j.8428770.3416059.1
-
+---
 https://v.youku.com/v_show/id_XMzQ1ODMzNzg2MA==.html?spm=a2h3j.8428770.3416059.1
