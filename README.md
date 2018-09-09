@@ -7,7 +7,7 @@ The BlackAnt team consists of a number of open-source enthusiasts, members inclu
 
 dog_project 
 ---
-http://v.youku.com/v_show/id_XMzY5ODQzNjA3Mg==.html?x&sharefrom=android&sharekey=c66188b0885f789cd84503cc0f15c9730
+https://v.youku.com/v_show/id_XMzgxNjkyMjQ5Mg==.html?
 
 visual odometry
 ---
