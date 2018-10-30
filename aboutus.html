@@ -1,51 +1,67 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<!doctype html>
 <head>
-	<meta charset="UTF-8">
-	<title>黑蚂蚁</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>黑蚂蚁</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+<!--owl-carousel css-->
+<link rel="stylesheet" href="css/owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="css/owl-carousel/owl.theme.css">
+<link rel="stylesheet" href="css/owl-carousel/owl.transitions.css">
+
+<!--CSS for Progress Bars-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css">
+
+
+
 	<style type="text/css">
-		.hd{
-			margin-bottom: 0px;
-		}
-		.bottom{
-			display: block;
-			float: left;
-			width: 100%;
-			margin-top: 0px;
+			.hd{
+				margin-bottom: 0px;
+			}
+			.bottom{
+				display: block;
+				float: left;
+				width: 100%;
+				margin-top: 0px;
 
-		}
-		.txt{}
+			}
+			.txt{}
 
-		.txt span{
-			display: none;
-			text-decoration: none;
-		}
+			.txt span{
+				display: none;
+				text-decoration: none;
+			}
 
-		.txt:hover{cursor: pointer;}
+			.txt:hover{cursor: pointer;}
 
-		.txt:hover span{
-			display: block;
-			position: absolute;
-			left: 10;
-			bottom:56px;
-			color: white;
-			width:240px;
-			z-index: 10;
-			height: 200;
-			line-height: 20px;
-			background:black;
-			filter:alpha(opacity=50);
-			opacity: 0.5;
-		}
+			.txt:hover span{
+				display: block;
+				position: absolute;
+				left: 10;
+				bottom:56px;
+				color: white;
+				width:240px;
+				z-index: 10;
+				height: 200;
+				line-height: 20px;
+				background:black;
+				filter:alpha(opacity=50);
+				opacity: 0.5;
+			}
 
 	</style>
 </head>
 
-<body>
-	<nav class="navbar navbar-inverse hd navbar-fixed-top">
+<body >
+<nav class="navbar navbar-inverse hd navbar-fixed-top">
 	  <div class="container">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -65,10 +81,12 @@
 	        <li><a href="history.html">研发历程</a></li>
 	        <li class="active"><a href="aboutus.html">关于我们</a></li>
 	        <li><a href="http://pan.baidu.com/s/1jIPcJHG">下载</a></li>
+			<li><a href="graduater.html">毕业生去向</a></li>
+			<li><a href="contribution.html">贡献</a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
         	<li><a href="aboutus-en.html">English</a></li>
-        	<li><a href="aboutus.html">中文</a></li>
+        	<li><a href="contribution.html">中文</a></li>
           </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -174,11 +192,13 @@
 				</div>
 			</div>
 		</div>
+		
 	</div>
-
-
 	<div class="page-header" style="color:black;margin-left:12%">
 		<h1 style="margin-top:70px;color:black;font-size:400%"><strong>研究生介绍</strong></h1> </div>
+
+
+	
 
 	<div class="container">
 		<div class="row">
@@ -208,157 +228,341 @@
 	</div>
 	<div class="page-header" style="color:black;margin-left:12%">
 		<h1 style="margin-top:70px;color:black;font-size:400%"><strong>本科生介绍</strong></h1> </div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/dongchangzhi.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>嵌入式开发工程师</strong></br></br>南京理工大学本科生，计算机科学与技术专业，嵌入式开发工程师，有3年以上的机器人相关开发经验。研究方向：脑机接口，人体三维建模。</span>
-			      <div class="caption">
-			        <h3 style="color:black">董昌智</h3>
-			      </div>
-			</div>
-			<div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/chenpan.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>嵌入式开发工程师</strong></br></br>河海大学本科在读，擅长单片机开发，负责硬件底层开发，目前担任无人机组负责人</span>
-			      <div class="caption">
-			        <h3 style="color:black">陈攀</h3>
-			      </div>
-			</div>
-			<div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/caojianhao.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>财务会计</strong></br></br>河海大学本科在读,负责后勤以及财务管理,为其他同志便利工作提供帮助</span>
-			      <div class="caption">
-			        <h3 style="color:black">曹剑豪</h3>
-			      </div>
-			</div>
-			<div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/guguoqiang.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>嵌入式开发工程师</strong></br></br>河海大学通信工程本科大三，担任国家级创新创业训练负责人，获得江苏省电子设计竞赛二等奖，全国大学生恩智浦杯智能车竞赛华东区二等奖等奖项，喜欢机器人。</span>
-			      <div class="caption">
-			        <h3 style="color:black">顾国强</h3>
-			      </div>
-			</div>
-			<div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/lihan.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>软件工程师</strong></br></br>就读于加州大学圣迭戈分校本科生认知科学专业，南师附中毕业生。初次参与计算机编程工作，现在在实验室负责web前端开发。</span>
-			      <div class="caption">
-			        <h3 style="color:black">李涵</h3>
-			      </div>
-			  </div>			  
-			  <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/lihaofei.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>嵌入式开发工程师</strong></br></br>河海大学本科在读，负责无人机相关调试工作，团队在知识产权申报工作方面主要负责人</span>
-			      <div class="caption">
-			        <h3 style="color:black">李昊菲</h3>
-			      </div>
-			  </div>
-			  <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/liao.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>web前端工程师</strong></br></br>河海大学本科在读，负责机器人web系统方面的开发工作，对大数据相关研究饶有兴趣</span>
-			      <div class="caption">
-			        <h3 style="color:black">廖静雅</h3>
-			      </div>
-			  </div>
-			  <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/pengshou.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>软件工程师</strong></br></br>河海大学本科，河海大学科协计算机协会副部长，曾担任可每人文化传媒有限公司后端工程师。现在在实验室负责Android端开发。</span>
-			      <div class="caption">
-			        <h3 style="color:black">彭守恒</h3>
-			      </div>
-			  </div>
-			  <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/sun.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>嵌入式开发工程师</strong></br></br>河海大学本科在读，负责硬件底层stm32相关开发工作，目前主要负责履带机器人第二代还原与完善工作</span>
-			      <div class="caption">
-			        <h3 style="color:black">孙康</h3>
-			      </div>
-			  </div>
-			  <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/xunuo.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>嵌入式开发工程师</strong></br></br>河海大学本科在读,擅长matlab,数据可视化等,团队在论文优化、发表工作方面主要负责人</span>
-			      <div class="caption">
-			        <h3 style="color:black">许诺</h3>
-			      </div>
-			  </div>
-                          <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/tianzhuangzhuang.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>web前端工程师</strong></br></br>河海大学本科在读,负责前端web开发以及实验室官网的维护工作</span>
-			      <div class="caption">
-			        <h3 style="color:black">田壮壮</h3>
-			      </div>
-			  </div>
-                          <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/lifengcheng.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>嵌入式开发工程师</strong></br></br>河海大学本科在读，目前负责机械鱼电子部分工作</span>
-			      <div class="caption">
-			        <h3 style="color:black">黎冯成</h3>
-			      </div>
-			  </div>		
-                          <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/wangzhao.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>软件工程师</strong></br></br>河海大学本科，河海大学科协计算机协会部长，曾担任可每人文化传媒有限公司后端工程师。现在在实验室负责WEB前端以及软件后端的开发</span>
-			      <div class="caption">
-			        <h3 style="color:black">王钊</h3>
-			      </div>
-			  </div>
-                          <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/liuguanming.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>软件工程师</strong></br></br>河海大学本科在读，计算机组成员，掌握latex排版等技术</span>
-			      <div class="caption">
-			        <h3 style="color:black">刘官明</h3>
-			      </div>
-			  </div>
-                          <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/yangsheng.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>嵌入式工程师</strong></br></br>河海大学本科生，研究多旋翼飞行器，负责相关软件算法的设计，目前担任无人机组的组长。</span>
-			      <div class="caption">
-			        <h3 style="color:black">杨晟</h3>
-			      </div>
-			  </div>
-                          <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/zhangzhengyuan.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>嵌入式开发工程师</strong></br></br>河海大学本科在读生，机械鱼组成员</span>
-			      <div class="caption">
-			        <h3 style="color:black">张正源</h3>
-			      </div>
+	
+									
 
-			  </div>
-                          <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/zhangrui.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>嵌入式软件开发工程师</strong></br></br>2017级本科生，能源与电气学院自动化专业</span>
-			      <div class="caption">
-			        <h3 style="color:black">张睿</h3>
-			      </div>
-			  </div>
-                          <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/zhangruibin.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>软件工程师</strong></br></br>南京理工大学本科在读生，负责单片机开发</span>
-			      <div class="caption">
-			        <h3 style="color:black">张瑞斌</h3>
-			      </div>
-			  </div>
-                          <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/yangwenjie.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>嵌入式开发工程师</strong></br></br>河海大学在读本科生 移动小车组成员</span>
-			      <div class="caption">
-			        <h3 style="color:black">杨文杰</h3>
-			      </div>
-			  </div>
-                          <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-2 txt">
-			      <img src="img/qiaoruizhe.jpg" alt="..." width="240px" height="320px" class="img-responsive">
-			      <span><strong>web前端工程师</strong></br></br>就读于南京理工大学网络工程专业，负责web前端开发。</span>
-			      <div class="caption">
-			        <h3 style="color:black">乔睿哲</h3>
-			      </div>
-			  </div>														
+	
 
-			  </div>								
 
+	<!-- Team Section -->
+	<section id="team" class="our-team">
+		<div class="container">
+			
+			<div class="row">
+				<div id="owl-demo" class="owl-carousel">
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/liuguanming.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >刘官明</a></h4>
+								<h6>软件工程师</h6>
+								<p>河海大学本科在读，计算机组成员，掌握latex排版等技术</p>
+								</br>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/tianzhuangzhuang.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4><a href="#" >田壮壮</a></h4>
+								<h6>web前端工程师</h6>
+								<p>河海大学本科在读,负责前端web开发以及实验室官网的维护工作</p>
+								</br>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/yangwenjie.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >杨文杰</a></h4>
+								<h6>嵌入式开发工程师</h6>
+								<p>河海大学在读本科生 移动小车组成员</p>
+								</br>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/lihaofei.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >李昊菲</a></h4>
+								<h6>嵌入式开发工程师</h6>
+								<p>河海大学本科在读，负责无人机相关调试工作，团队在知识产权申报工作方面主要负责人</p>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/yangsheng.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >杨晟</a></h4>
+								<h6>嵌入式工程师</h6>
+								<p>河海大学本科生，研究多旋翼飞行器，负责相关软件算法的设计，目前担任无人机组的组长。</p>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/lihan.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >李涵</a></h4>
+								<h6>软件工程师</h6>
+								<p><small>就读于加州大学圣迭戈分校本科生认知科学专业。初次参与计算机编程工作，现在在实验室负责web前端开发。</small></p>
+								</br>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/dongchangzhi.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >董昌智</a></h4>
+								<h6>嵌入式开发工程师</h6>
+								<p><small>南京理工大学本科生，计算机专业,有3年以上的机器人相关开发经验。研究方向：脑机接口，人体三维建模。</small></p>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/chenpan.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >陈攀</a></h4>
+								<h6>嵌入式开发工程师</h6>
+								<p>河海大学本科在读，擅长单片机开发，负责硬件底层开发，目前担任无人机组负责人</p>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/caojianhao.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >曹剑豪</a></h4>
+								<h6>财务会计</h6>
+								<p>河海大学本科在读,负责后勤以及财务管理,为其他同志便利工作提供帮助</p>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/guguoqiang.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >顾国强</a></h4>
+								<h6>嵌入式开发工程师</h6>
+								<p><small>河海大学通信工程本科大三，担任国家级创新创业训练负责人，获得江苏省电子设计竞赛二等奖，全国大学生恩智浦杯智能车竞赛华东区二等奖等奖项.</small></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/liao.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >廖静雅</a></h4>
+								<h6>wec前端工程师</h6>
+								<p>河海大学本科在读，负责机器人web系统方面的开发工作，对大数据相关研究饶有兴趣</p>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/pengshou.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >彭守恒</a></h4>
+								<h6>软件工程师</h6>
+								<p>河海大学本科，河海大学科协计算机协会副部长，曾担任可每人文化传媒有限公司后端工程师。现在在实验室负责Android端开发。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/sun.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >孙康</a></h4>
+								<h6>嵌入式开发工程师</h6>
+								<p>河海大学本科在读，负责硬件底层stm32相关开发工作，目前主要负责履带机器人第二代还原与完善工作</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/xunuo.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >许诺</a></h4>
+								<h6>嵌入式开发工程师</h6>
+								<p>河海大学本科在读,擅长matlab,数据可视化等,团队在论文优化、发表工作方面主要负责人</p>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/lifengcheng.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >黎冯成</a></h4>
+								<h6>嵌入式开发工程师</h6>
+								<p>河海大学本科在读，目前负责机械鱼电子部分工作</p>
+								</br>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/wangzhao.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >王钊</a></h4>
+								<h6>软件工程师</h6>
+								<p><small>河海大学本科，河海大学科协计算机协会部长，曾担任可每人文化传媒有限公司后端工程师。现在在实验室负责WEB前端以及软件后端的开发</small></p>
+							</div>
+						</div>
+					</div>
+				
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/zhangzhengyuan.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >张正源</a></h4>
+								<h6>嵌入式开发工程师</h6>
+								<p>河海大学本科在读生，机械鱼组成员</p>
+								</br>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/zhangruibin.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >张瑞斌</a></h4>
+								<h6>软件工程师</h6>
+								<p>南京理工大学本科在读生，负责单片机开发</p>
+								</br>
+								</br>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/qiaoruizhe.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >乔睿哲</a></h4>
+								<h6>web前端工程师</h6>
+								<p>就读于南京理工大学网络工程专业，负责web前端开发</p>
+								</br>
+								</br>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12" align="center">
+						<div class="single-service" >
+							<div class="single-service-icon" >
+								<a href="#"><img src="img/zhangrui.jpg" width="80"></a>
+							</div>
+							
+							<div class="single-service-content" >
+								<h4 ><a href="#" >张瑞</a></h4>
+								<h6>嵌入式软件开发工程师</h6>
+								<p>2017级本科生，能源与电气学院自动化专业</p>
+								</br>
+								</br>
+							</div>
+						</div>
+					</div>
+				
+					
+					<div class="col-sm-4">
+						
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-	<div class="bottom" style="background:#212121;padding:10px;color:#fff;">
-		<p class="text-center">我们的目标：让更多人低成本的参与创造机器人的乐趣</p>
-		<p class="text-center">Copyright ©2017 X-Space.com All rights reserved. 苏ICP备15005357号</p>
-	</div>
+	</section>
+	</br>
+	</br>
+
+
+<div class="bottom" style="background:#212121;padding:10px;color:#fff;">
+		<p class="text-center colorw" >我们的目标：让更多人低成本的参与创造机器人的乐趣</p>
+		<p class="text-center colorw">Copyright ©2017 X-Space.com All rights reserved. 苏ICP备15005357号</p>
+</div>
+
+
+<!-- jQuery -->
+<script src="js/vendor/jquery.js"></script>
+<script src="js/jquery-1.10.2.min.js"></script>
+
+
+
+<script src="js/vendor/owl.carousel.min.js"></script>
+
+<!-- Theme JavaScript -->
+
+<script src="js/vendor/jquery.mixitup.js"></script>
+<script src="js/vendor/wow.min.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/script.js"></script>
+
+
+
 </body>
 </html>
