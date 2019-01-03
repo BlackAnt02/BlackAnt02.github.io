@@ -7,6 +7,7 @@ The BlackAnt team consists of a number of open-source enthusiasts, members inclu
 
 dog_project 
 ---
+https://www.bilibili.com/video/av34108348?share_medium=android&share_source=copy_link&bbid=452131F3-C84D-4DF0-89AF-AA0107CE68FF16810infoc&ts=1539869227641
 
 
 visual odometry
@@ -18,5 +19,6 @@ https://www.bilibili.com/video/av24356037?share_medium=android&share_source=weix
 ROS机器人demo
 ---
 https://v.youku.com/v_show/id_XMzQ1ODM0Nzg4OA==.html?spm=a2h3j.8428770.3416059.1
+
 ---
 https://v.youku.com/v_show/id_XMzQ1ODMzNzg2MA==.html?spm=a2h3j.8428770.3416059.1
