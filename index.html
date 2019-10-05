@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="baidu-site-verification" content="HkVIJTCR8K" />
 	<title>黑蚂蚁</title>
-	
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index_style.css">
 	<script src="js/jquery-1.10.2.min.js"></script>
@@ -182,33 +180,35 @@
 		<footer>
 			<a>项目介绍</a>
 		</footer>
-		<div class="preamble" id="zen-explanation" role="article" >
+		<div class="requirements" id="zen-requirements" role="article">
 			<h3>基于zigbee的可穿戴式超功耗姿态传感器模块</h3>
-			<p style="color: rgba(84, 84, 84, 1); font-weight: bold;">该模块以stm32与IMU（惯性测量单元，mpu9250）为核心芯片，zigbee组网作为通信方法，支持断开重连机制，具有高稳定的<abbr title="Document Object Model">自组网</abbr>特性。</p>
+			<p style="color: rgba(84, 84, 84, 1); font-weight: bold;">该模块以stm32与IMU（惯性测量单元，mpu9250）为核心芯片，zigbee组网作为通信方法，支持断开重连机制，具有高稳定的自组网特性。</p>
 			<p style="color: rgba(84, 84, 84, 1); font-weight: bold;">拥有核心的射频电路设计技术，将模块硬件尺寸缩减至30*32mm，采用拥有核心技术的zigbee超低功耗算法，在几乎无休眠，一直工作的情况下，续航时间高达3个月以上。目前该产品已完成多版迭代，处于量产阶段。 </p>
 			<p style="color: rgba(84, 84, 84, 1); font-weight: bold;">
 			获奖和成果情况：与多家企业展开深度项目合作，即将面向医疗市场使用
 			</p>
-		</div>
-		<div class="explanation" id="zen-explanation" role="article">
+		<div class="explanation3" id="zen-explanation" role="article">
 			 <h3><img src="image/1.png" width="100%"><h3>
 		</div>
-		<hr class="half-rule" style="clear:left;">
-<div class="preamble" id="zen-explanation2" role="article" style="max-width:100%">
+		</div>
+		
+<hr class="half-rule" style="clear:left;">
+<div class="requirements" id="zen-requirements" role="article">
 			<h3>人脸识别锁</h3>
 			<p style="color: rgba(84, 84, 84, 1); font-weight: bold;">本项目通过搭载摄像头的树莓派搭配esp8266模块控制磁力锁实现实时人脸识别。以RTMP协议传输视频流，低延迟，稳定性好。识别算法基于C++开源库 dlib中的深度学习模型，用Labeled Faces in the Wild人脸数据集进行测试，有高达99.38%的准确率。</p>
 			<p style="color: rgba(84, 84, 84, 1); font-weight: bold;">通过MQTT协议进行无线通信，低功耗，即时性强，网络质量要求低，能够同时对多个目的地发送不同信息。目前经过测试，能够流畅识别数个视频源，并准确发送控制信号，只要相关模块处于互联网环境下能够能够同时实现多个识别锁正常工作。 </p>
 			<p style="color: rgba(84, 84, 84, 1); font-weight: bold;">
 			获奖和成果情况：目前正在申请发明专利;已在4204研究生实验室部署，进行实际应用阶段
 			</p>
-</div>
-		
-		<div class="explanation" id="zen-explanation2" role="article" style="clear:left; margin-left:-520px">
+			<div class="explanation3" id="zen-explanation" role="article" style="max-width:495px;">
 			 <h3><img src="image/2.png" width="100%"><h3>
 		</div>
-		<div class="explanation" id="zen-explanation2" role="article">
+		<div class="explanation3" id="zen-explanation" role="article">
 			 <h3><img src="image/3.png" width="100%"><h3>
 		</div>
+</div>
+		
+		
 		
 <hr class="half-rule" style="clear:left;">
 		<div class="requirements" id="zen-requirements" role="article">
@@ -235,9 +235,14 @@
 			 <img src="image/10.png" width="100%">
 		</div>
 			<p><img src="image/4.png" width="100%"></p>
-	    <div class="col-md-3 col-sm-3 col-xs-12">
+<div class="col-md-3 col-sm-3 col-xs-12" style="width:100%; max-width: 450px;">
 		<p style="color: rgba(84, 84, 84, 1); font-weight: bold;">ros演示视频：</p>
-<iframe class="center-block" style="margin-top: 18px" width='450px' height='400px' align='middle' src="http://server.blackant.org:8000/ROScar.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>		           
+<div class="center-block" style="margin-top:18px;" width='240px' height='400px'> 
+<img src="image/mp4ros.png" width="100%"/>
+<a class="playermp4" href="ROScarmp4.html" target="_blank">
+<img src="image/play.png" width="100%"/>
+</a>
+</div>		           
         </div>
 		</div>
 		<hr class="half-rule" style="clear:left;">
@@ -252,17 +257,16 @@
 		<div class="explanation3" id="zen-explanation" role="article">
 			 <img src="image/12.png" width="100%">
 		</div>
+		 <p class="lead" style="color: rgba(84, 84, 84, 1); font-weight: bold;">警犬系统网页端演示视频：</p>
+<div class="explanation3" id="zen-explanation" role="article" style="clear:left;">
+			 <img src="image/mp4dog.png" width="100%">
+		<a class="playermp4" href="dogmp4.html" target="_blank">
+			 <img src="image/play.png" width="100%">
+</a>
 		</div>
-		  
-		  <div class="container" style="clear: left; width: 864px;">
-    <p class="lead" style="color: rgba(84, 84, 84, 1); font-weight: bold;">警犬系统网页端演示视频：</p>
-    
-    <div class="row" style="margin:auto 0;">
-        <div class="col-md-9 col-sm-9 col-xs-12 hidden-xs">
-<iframe class="center-block" style="margin-top: 18px" width='864px' height='500px' align='middle' src="http://server.blackant.org:8000/dog.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-        </div>
-    </div>
-         </div>
+
+		</div>
+		 
 	</div>
 </section>
 
