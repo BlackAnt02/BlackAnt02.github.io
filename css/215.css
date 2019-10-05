@@ -398,6 +398,7 @@ header h2 {
   max-width: 495px;
   padding-bottom: 15px;
   position: relative;
+  width: 100%;
 }
 .explanation4 {
   float: left;
@@ -435,6 +436,16 @@ header h2 {
   min-width: 412px;
   position: relative;
   width: 100%;
+}
+.playermp4 {
+position:absolute;
+left:50%;
+top:50%;
+cursor:pointer;
+width:15%;
+border-radius:100px;
+box-shadow:1px 1px 0px #353535;
+margin-left:-7.5%;
 }
 .benefits {
   background-color: #edf6ff;
