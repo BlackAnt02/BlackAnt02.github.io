@@ -935,3 +935,20 @@ footer.footer h2 {
 .about-care h3 {
     color: #181d30;
 }
+.book {
+	width:30%; 
+	float:left; 
+	margin:10%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.poster {
+	width:30%;
+	float:left;
+	margin:10%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.line {
+	width:100%;
+}
