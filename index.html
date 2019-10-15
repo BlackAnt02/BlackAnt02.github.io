@@ -50,12 +50,8 @@
 	</style>
 
 	    <!-- Custom styles for this template -->
-    <link href="/assets/css/docs.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
     <!-- fancybox plugin css -->
-    <link rel="stylesheet" href="/assets/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/assets/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/assets/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 	<link rel="stylesheet" media="screen" href="css/215.css?v=8may2013">
 </head>
 <body>
@@ -165,7 +161,7 @@
 	  </a>
 	</div>
 
-	<div class="page-header text-center" style="margin:70px;">
+	<div class="page-header text-center" style="">
 	  <h1 style="font-family: inherit; font-size: 2em;">黑蚂蚁 我们的机器人强国梦</h1>
 	  <h1 style="font-family: inherit; font-size: 2em;"><small>我们是一群极具创新力和活力的群体，我们都有一个共同的梦想。那就是用机器人让中国更强大。</small></h1>
 	</div>
@@ -223,27 +219,29 @@
 			 <img src="image/6.png" width="100%">
 		</div>
 		<div class="explanation3" id="zen-explanation" role="article">
-			 <img src="image/7.png" width="100%">
-		</div>
-		<div class="explanation3" id="zen-explanation" role="article">
 			 <img src="image/8.png" width="100%">
 		</div>
-		<div class="explanation3" id="zen-explanation" role="article">
+		<div class="explanation3" id="zen-explanation" role="article" style="width">
 			 <img src="image/9.png" width="100%">
 		</div>
 		<div class="explanation4" id="zen-explanation" role="article">
+		<br>
 			 <img src="image/10.png" width="100%">
 		</div>
-			<p><img src="image/4.png" width="100%"></p>
-<div class="col-md-3 col-sm-3 col-xs-12" style="width:100%; max-width: 450px;">
-		<p style="color: rgba(84, 84, 84, 1); font-weight: bold;">ros演示视频：</p>
-<div class="center-block" style="margin-top:18px;" width='240px' height='400px'> 
-<img src="image/mp4ros.png" width="100%"/>
-<a class="playermp4" href="ROScarmp4.html" target="_blank">
-<img src="image/play.png" width="100%"/>
-</a>
-</div>		           
-        </div>
+
+<div class="col-md-3 col-sm-3 col-xs-12" style="width:100%; max-width: 600px;">
+		<p style="color: rgba(84, 84, 84, 1); font-weight: bold;">示意<a href="ROScarmp4.html" target="_blank">视频</a></p>
+<div> 
+<iframe scrolling="no" id='test1' width='100%' src="ROScarmp4.html" frameborder=0 'allowfullscreen'></iframe>
+								<script type="text/javascript">
+								document.getElementById("test1").style.height=document.getElementById("test1").scrollWidth*1.35+"px";
+								</script>
+</div>	
+	           
+</div>
+
+
+
 		</div>
 		<hr class="half-rule" style="clear:left;">
 		<div class="requirements" id="zen-requirements" role="article">
@@ -258,19 +256,20 @@
 			 <img src="image/12.png" width="100%">
 		</div>
 		 <p class="lead" style="color: rgba(84, 84, 84, 1); font-weight: bold;">警犬系统网页端演示视频：</p>
-<div class="explanation3" id="zen-explanation" role="article" style="clear:left;">
-			 <img src="image/mp4dog.png" width="100%">
-		<a class="playermp4" href="dogmp4.html" target="_blank">
-			 <img src="image/play.png" width="100%">
-</a>
-		</div>
+
+<div style="margin:auto;max-width:800px;"> 
+<iframe scrolling="no" id='test' width='100%' src="dogmp4.html" frameborder=0 'allowfullscreen'></iframe>
+								<script type="text/javascript">
+								document.getElementById("test").style.height=document.getElementById("test").scrollWidth*0.43+"px";
+								</script>
+</div>	
 
 		</div>
 		 
 	</div>
 </section>
 
-	<div class="bottom" style="background:#212121;padding:10px;color:#fff;">
+	<div class="bottom" style="background:#212121;padding:10px;color:#fff; margin-top:10px;">
 		<p class="text-center">我们的目标：让更多人低成本的参与创造机器人的乐趣</p>
 		<p class="text-center">Copyright ©2017 X-Space.com All rights reserved. 苏ICP备15005357号</p>
 	</div>
